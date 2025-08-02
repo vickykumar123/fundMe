@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "solc": "^0.8.30"
+  },
+  "scripts": {
+    "compile": "npx solc --bin --abi --include-path node_modules/ --base-path . -o . ./contracts/SimpleStorage.sol"
+  },
+  "devDependencies": {
+    "hardhat": "^2.26.1"
+  }
+}
